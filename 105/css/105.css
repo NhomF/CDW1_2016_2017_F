@@ -1,0 +1,128 @@
+.type-105 a {
+  text-decoration: none;
+  color: #505050;
+}
+.type-105 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type-105 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.type-105 body {
+  background: white;
+}
+.type-105 .store-badge {
+  vertical-align: middle;
+}
+.type-105 .store-badge img {
+  width: 156px;
+}
+.type-105 .store-badge.bottom {
+  display: none;
+}
+.type-105 .app {
+  text-align: center;
+}
+@media only screen and (min-width: 780px) {
+  .type-105 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 779px) {
+  .type-105 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+  .type-105 .store-badge img {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-105 .store-badge {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .type-105 .store-badge img {
+    display: inline-block;
+  }
+  .type-105 .store-badge.top {
+    display: none;
+  }
+  .type-105 .store-badge.bottom {
+    display: block;
+  }
+  .type-105 .store-badge img {
+    width: 190px;
+  }
+}
+.type-105 footer {
+  text-align: center;
+  margin: 18px 0 30px;
+}
+@media only screen and (max-width: 779px) {
+  .type-105 footer {
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+}
+.type-105 .footer-links {
+  font-size: 1.3rem;
+  color: #505050;
+  display: inline-block;
+  width: 100%;
+}
+.type-105 .footer-links a {
+  display: inline-block;
+  transition: color 0.2s ease-out;
+}
+.type-105 .footer-links a:hover {
+  color: #DA151F;
+}
+@media only screen and (max-width: 779px) {
+  .type-105 .footer-links {
+    padding: 30px 30px;
+    background: #ECECEC;
+    text-align: left;
+  }
+  .type-105 .footer-links a {
+    padding: 10px 0;
+    font-size: 1.4rem;
+  }
+  .type-105 .footer-links li {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-105 .footer-links li {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-105 .footer-links a {
+    padding: 10px 10px;
+  }
+  .type-105 .footer-links li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.type-105 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-105 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-105 .app-display {
+  display: inline-block;
+  max-width: 460px;
+  vertical-align: middle;
+  position: relative;
+}
