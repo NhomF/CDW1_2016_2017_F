@@ -1,0 +1,36 @@
+.type-201 body {
+  background: rgba(0,0,0,0) url("body-bg.png") repeat scroll 0 0;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+.type-201 .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-201 #home-2 .home-2-waraper {
+  width: 1230px;
+  box-shadow: 8px 0 5px -5px #ededed, -8px 0 5px -5px #ededed;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.type-201 .header-top {
+  background: #eae5e5;
+  border-bottom: 1px solid #efefef;
+}
+.type-201 label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.type-201 .submenu-mainmenu.currency-picker {
+  border: medium none;
+  margin-left: 0;
+  margin-right: 15px;
+  padding: 0 19px 0 0;
+}
+.type-201 .wlc_name {
+  color: #65c178;
+}
