@@ -1,0 +1,43 @@
+.type-403{
+    .clear {
+        clear: both;
+    }
+    .mod-product .product {
+        height: 490px;
+        background-color: white;
+        border-bottom: 1px solid blue;
+        border-right: 1px solid blue;
+    }
+    .mod-product .product-1 {
+        padding: 70px 0px 30px;
+        height: 487px;
+        background-image: url("../images/home_surveyor_wrapbg1.png");
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+    }
+    .mod-product .product-2 {
+        padding: 70px 0px 30px;
+        height: 487px;
+    }
+    .mod-product .product-1 h1 {
+        line-height: 1.2;
+        color: #ff5a00;
+        font-weight: 700;
+        font-size: 31px;
+    }
+    .mod-product .product-content p {
+        color: #A5939D;
+        line-height: 1.6;
+    }
+    .mod-product .item-1 img {
+        width: 100%;
+    }
+    .mod-product .item-2 img {
+        width: 100%;
+    }
+    .mod-product .item-1,
+    .mod-product .item-2 {
+        margin-right: 40px;
+    }
+}

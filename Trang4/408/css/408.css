@@ -1,0 +1,45 @@
+.type-408{
+    .custom-25-chitiet{
+        .footer{
+            padding: 0px 65px 0px;
+            #Footer, #Footer .widget_recent_entries ul li a {
+                color: #8284a6;
+            }
+            #Footer {
+                background-color: #03084c;
+            }
+            #Footer {
+                background-position: center top;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+            .clearfix {
+                zoom: 1;
+            }
+           
+            #Footer .footer_copy {
+                border-top: 1px solid rgba(255,255,255,.1);
+                text-align: center;
+            }
+            #Footer .footer_copy .one {
+                margin-bottom: 20px;
+                padding-top: 30px;
+                min-height: 33px;
+            }
+
+            .one.column {
+                width: 98%;
+            }
+
+
+            #Footer .footer_copy .copyright {
+                float: none;
+                margin: 0 0 10px;
+            }
+            #Footer a:hover {
+                color: #ff5a00;
+            }
+        }
+    }
+}
+

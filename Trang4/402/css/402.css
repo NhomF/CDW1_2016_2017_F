@@ -1,0 +1,48 @@
+.type-402{
+    .clear {
+        clear: both;
+    }
+    .mod-banner .banner {
+        background-image: url('../images/home_surveyor_slider.jpg');
+        height: 599px;
+        width: 100%;
+        opacity: 1;
+        visibility: inherit;
+        z-index: 20;
+        background-color: rgba(0,0,0,0);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .mod-banner .line {
+        position: absolute;
+        top: 165px;
+        display: inline-block;
+    }
+    .mod-banner .number {
+        position: absolute;
+        display: inline-block;
+        top: 170px;
+        left: 31%;
+    }
+    .mod-banner .banner-content {
+        padding-top: 15%;
+        text-align: right;
+        margin-right: 50%;
+    }
+    .mod-banner .title h1,
+    .mod-banner p {
+        margin: 0;
+        display: block;
+    }
+    .mod-banner .title h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 3.4em;
+    }
+    .mod-banner .text p {
+        letter-spacing: 0.2px;
+        line-height: 1.5;
+        color: #9DA9B2;
+    }
+}

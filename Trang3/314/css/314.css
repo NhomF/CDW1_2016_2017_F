@@ -1,0 +1,174 @@
+.type-314{
+    .mod-custom-25{
+        a, a:visited, a:focus {
+            text-decoration: none;
+            outline: 0;
+        }
+        a{
+            color: #0095eb;
+        }
+        i {
+            font-style: italic;
+        }
+        h2, h4{
+            font-family: "Lato",Arial,Tahoma,sans-serif;
+        }
+        h2,h4{  
+            color: #000;
+        }
+        h2{
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+        hr {
+            background-color: rgba(0,0,0,.08);
+            color: rgba(0,0,0,.08);
+            margin: 0 auto 15px;
+            clear: both;
+        }
+
+        .section{
+            padding-top:100px;
+            padding-bottom:60px;
+
+        } 
+        #Wrapper {
+            max-width: 100% !important;
+            width: 100% !important;
+            margin: 0 !important;
+
+            .one.mcb-wrap {
+                width: 100%;
+            }
+            .clearfix {
+                zoom: 1;
+            }
+            .clearfix:before, .clearfix:after {
+                content: '\0020';
+                display: block;
+                overflow: hidden;
+                visibility: hidden;
+                width: 0;
+                height: 0;
+            }
+            .clearfix:after {
+                clear: both;
+            }
+            .mcb-wrap {
+                float: left;
+                position: relative;
+                z-index: 1;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            .one.column {
+                width: 98%;
+            }
+            .column, .columns {
+                float: left;
+                margin: 0 1% 40px;
+            }
+            .column_attr{
+                h2{
+                    margin: 0 10%;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                }
+            }
+            hr.no_line {
+                background: none;
+                color: transparent;
+                margin: 0 auto 20px;
+            }
+            .section_wrapper{
+                max-width: 1220px;
+                margin: 0 auto;
+                position: relative;
+            }
+            .section_wrapper:after{
+                clear: both;
+                content: " ";
+                display: block;
+                height: 0;
+                visibility: hidden;
+            }
+            .column.column_divider {
+                margin-bottom: 0 !important;
+            }
+            .column_divider hr{
+                margin-bottom: 0;
+            }
+            .one-second.column {
+                width: 48%;
+            }
+            .column_attr.align_center {
+                text-align: center;
+                h2{
+                    margin: 0 10% 15px;
+                    span{
+                        font-family: Lora,serif;
+                        font-style: italic; 
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+
+            #help{
+                padding-top:100px;
+                padding-bottom:80px;
+                background-image:url(../images/splash_theme_support1.png); 
+                background-repeat:no-repeat;
+                background-position:center bottom;
+                background-color: rgba(255,255,255,0.65);
+                .list_item {
+                    display: block;
+                    .list_left{
+                        height: 115px;
+                        line-height: 115px;
+                        width: 100%;
+                        margin-bottom: 30px !important;
+                        color: #0095eb;
+                        img {
+                            vertical-align: middle;
+                        }
+                    }
+                    .list_right {
+                        padding: 5px 0 0;
+                        margin-left: 100px;
+                        word-wrap: break-word;
+                        margin: 0 10% !important;
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                    .list_image {
+                        font-size: 0;
+                    }
+                }
+                .list_item.lists_3 .list_right {
+                    margin-left: 0;
+                    padding-top: 0;
+                    h4 {
+                        margin-bottom: 10px;
+                    }
+                }
+                .section_wrapper {
+                    z-index: 2;
+                }
+                .three-fourth.column {
+                    width: 73%;
+                }
+                .one-fourth.column, .four.columns {
+                    width: 23%;
+                }
+                .column, .columns {
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+
+

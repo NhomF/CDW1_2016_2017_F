@@ -1,0 +1,148 @@
+.type-303 {
+    margin-top:30px;
+    font-family: "Lato",Arial,Tahoma,sans-serif;
+    .product-theme {
+        text-align:center;
+        .themecolor {
+            margin-bottom: 20px;
+            font-size: 100px;
+            line-height: 100px;
+            display: inline-block;
+            font-weight: 700;
+            border: 5px solid #0095eb;
+            letter-spacing: -8px;
+            padding: 0px 25px 7px;
+            color: #0095eb;
+        }
+        h2 {
+            font-weight: 300;
+            letter-spacing:  1.6px;
+            font-size:  40px;
+            line-height: 40px;
+            font-family: "Lato",Arial,Tahoma,sans-serif;
+        }
+
+    }
+    .product-menu{
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        .Filters {
+
+            margin: 0;
+            ul {
+                text-align: center;
+                borer-bottom: 1px solid rgba(0,0,0,.25);
+                margin: 0;           
+                display: block;
+                li {
+                    float:none;
+                    width: auto;
+                    display: inline-block;
+                    list-style: none;
+                    margin:0;
+                    line-height: 45px;
+                    a {
+                        border: 0;
+                        font-size: 17px;
+                        font-family: Lato;
+                        transition: all .2s ease-in-out;
+                        letter-spacing: 1px;
+                        padding: 20px 25px;
+                        position: relative;
+                        color:#000000;
+                        margin: 0;
+                        text-decoration: none;
+                    }
+
+
+                    a:hover {
+                        text-decoration: none;
+                        color:#0095eb;
+
+                    }
+                    a:focus {
+
+                        color:#0095eb;
+                        border-bottom: 3px solid #0095eb;
+                    }
+                }
+            }
+        }
+        .portfolio_wrapper{
+            background: #edeeee;
+            overflow: hidden;
+            padding-top: 40px;
+            text-align: center;
+
+            .all {
+                width: 100%;
+                text-align: center;
+                height: 900px;
+                margin-left: 2%;
+                width: 97%;
+                height: auto;
+                .item {
+                    width: 20%;
+                    text-align: center;
+                    float:left;
+                    .image {
+                        img {
+                            max-width: 91%;
+                            max-height: 256px;
+                        }
+                    }
+                    h4 {
+                        margin: 16px 0;
+                        color :#000;
+                        font-weight: inherit;
+                        letter-spacing: 2px;
+                        font-weight: 400;
+
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                    .review {
+                        width: 90%;
+                        height: 47px;
+                        background: #0095eb;
+                        position: relative;
+                        bottom: 75px;
+                        left: 15px;
+                        color:white;
+
+                        opacity: 0;
+                        padding: 10px;
+                    }
+
+
+                    .review:hover {
+                        background: white;
+                        color:#0095eb;
+                    }
+
+                }
+                .item:hover .review{
+                    transform: translateY(-32px);
+                    transition: 0.4s;
+                    opacity: 0.8;
+                }
+
+                .item:hover img {
+                    transform: translateY(-10px);
+                    transition: 0.4s;
+                }
+
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+
+    }
+
+}
