@@ -1,0 +1,202 @@
+.type-501 .mod-menu-main .clear {
+  clear: both;
+}
+.type-501 .mod-menu-main body {
+  padding-bottom: 40px;
+  font-family: Arial, Tahoma, sans-serif;
+}
+.type-501 .mod-menu-main a:hover {
+  text-decoration: none;
+}
+.type-501 .mod-menu-main .navbar-wrapper {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: #06121b;
+  width: 100%;
+}
+.type-501 .mod-menu-main .nav .navbar .megamenu {
+  color: #abafb1;
+}
+.type-501 .mod-menu-main .megamenu {
+  display: block;
+}
+.type-501 .mod-menu-main .megamenu .nav,
+.type-501 .mod-menu-main .megamenu .collapse,
+.type-501 .mod-menu-main .megamenu .dropup,
+.type-501 .mod-menu-main .megamenu .dropdown {
+  position: static;
+}
+.type-501 .mod-menu-main .megamenu .megamenu-content {
+  background-color: #262c30;
+  border: 1px solid #262c30;
+}
+.type-501 .mod-menu-main .megamenu .megamenu-content h3 {
+  margin-top: 0;
+  font-size: 12px;
+}
+.type-501 .mod-menu-main .megamenu .dropdown.megamenu-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+@media (max-width: 1250px) {
+  .type-501 .mod-menu-main .megamenu ul li {
+    display: none;
+  }
+  .type-501 .mod-menu-main .megamenu {
+    max-width: 100%;
+  }
+}
+.type-501 .mod-menu-main .iconmenu {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .type-501 .mod-menu-main .megamenu ul li.iconmenu {
+    display: block;
+    position: relative;
+    right: 5px;
+    border: none;
+    width: 50%;
+  }
+}
+.type-501 .mod-menu-main .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 0 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+}
+.type-501 .mod-menu-main .megamenu .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.type-501 .mod-menu-main .menurespon {
+  width: 100%;
+  height: auto;
+  background: #06121B;
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  .type-501 .mod-menu-main .menurespon {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+}
+.type-501 .mod-menu-main .menurespon p {
+  margin-left: 20px;
+  color: #ffffff;
+}
+.type-501 .mod-menu-main .megamenu>ul>li {
+  float: left;
+  padding: 0 25px;
+  list-style: none;
+  border-left: 1px solid #343c43;
+  line-height: 89px;
+  cursor: pointer;
+}
+.type-501 .mod-menu-main .megamenu>ul>li:hover {
+  background-color: #262c30;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .megamenu>ul>li>a {
+  text-decoration: none;
+  color: #abafb1;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.type-501 .mod-menu-main .megamenu>ul>li:hover a {
+  color: white;
+}
+.type-501 .mod-menu-main .megamenu ul li ul li a {
+  color: #ab926c;
+}
+.type-501 .mod-menu-main .megamenu>ul>li>ul>li {
+  padding: 2px 0;
+}
+.type-501 .mod-menu-main .navbar megamenu {
+  float: left;
+}
+.type-501 .mod-menu-main .navbar {
+  margin-bottom: 0;
+}
+.type-501 .mod-menu-main .megamenu #logo {
+  float: left;
+}
+@media (max-width: 486px) {
+  .type-501 .mod-menu-main #logo {
+    position: absolute;
+    left: 35px;
+  }
+}
+.type-501 .mod-menu-main .megamenu .megamenu {
+  float: right;
+  position: relative;
+  right: -1px;
+}
+.type-501 .mod-menu-main #logo img {
+  padding-left: 23px;
+}
+@media (max-width: 486px) {
+  .type-501 .mod-menu-main #logo img {
+    padding-left: 0;
+  }
+}
+.type-501 .mod-menu-main .btn-buy {
+  text-align: center;
+  float: left;
+  background: #ff3232;
+  background: linear-gradient(to right,#008ee0 50%,#0095eb 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.4s ease;
+}
+@media (max-width: 100%) {
+  .type-501 .mod-menu-main .btn-buy {
+    display: block;
+  }
+}
+.type-501 .mod-menu-main .btn-buy:hover {
+  background-position: left bottom;
+}
+.type-501 .mod-menu-main .custom-title ul li {
+  line-height: 33px;
+  list-style: none outside;
+}
+.type-501 .mod-menu-main .custom-title ul li:hover {
+  background: black;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .custom-title ul li:hover span {
+  color: white;
+}
+.type-501 .mod-menu-main .custom-title>span {
+  color: #abafb1;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .coll {
+  border-left: 1px solid #363b3f;
+  height: 100%;
+}
+.type-501 .mod-menu-main .custom-title li a span {
+  padding-left: 10px;
+  color: #abafb1;
+}
