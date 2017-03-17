@@ -23,6 +23,9 @@
 .type-501 .mod-menu-main .megamenu {
   display: block;
 }
+.type-501 .mod-menu-main .clear {
+  clear: both;
+}
 .type-501 .mod-menu-main .megamenu .nav,
 .type-501 .mod-menu-main .megamenu .collapse,
 .type-501 .mod-menu-main .megamenu .dropup,
@@ -93,6 +96,7 @@
   display: none;
   position: relative;
   z-index: 1;
+  margin-top: 50px;
 }
 @media (max-width: 600px) {
   .type-501 .mod-menu-main .menurespon {
@@ -105,9 +109,56 @@
   margin-left: 20px;
   color: #ffffff;
 }
+.type-501 .mod-menu-main .menurespon ul li {
+  list-style: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.type-501 .mod-menu-main .menurespon>ul>li:hover {
+  background-color: #262c30;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .menurespon>ul>li>a {
+  text-decoration: none;
+  color: #abafb1;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.type-501 .mod-menu-main .menurespon>ul>li:hover a {
+  color: white;
+}
+.type-501 .mod-menu-main .menurespon ul li ul li a {
+  color: #ab926c;
+}
+.type-501 .mod-menu-main .menurespon>ul>li>ul>li {
+  padding: 2px 0;
+}
+.type-501 .mod-menu-main .menurespon .custom-title ul li {
+  line-height: 33px;
+  list-style: none outside;
+}
+.type-501 .mod-menu-main .menurespon .custom-title ul li:hover {
+  background: black;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .menurespon .custom-title ul li:hover span {
+  color: white;
+}
+.type-501 .mod-menu-main .menurespon .custom-title>span {
+  color: #abafb1;
+  transition: all 1s ease;
+}
+.type-501 .mod-menu-main .menurespon .coll {
+  border-left: 1px solid #363b3f;
+  height: 100%;
+}
+.type-501 .mod-menu-main .menurespon .custom-title li a span {
+  padding-left: 10px;
+  color: #abafb1;
+}
 .type-501 .mod-menu-main .megamenu>ul>li {
   float: left;
-  padding: 0 25px;
+  padding: 0 20px;
   list-style: none;
   border-left: 1px solid #343c43;
   line-height: 89px;

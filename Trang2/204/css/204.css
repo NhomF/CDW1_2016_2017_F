@@ -246,50 +246,48 @@
 .type-204 .mega-menu .single-product a {
   background: #fff !important;
 }
-.type-204 .col-xs-12{
-    float: left;
-    width: 25%;
+.type-204 .col-xs-12 {
+  float: left;
+  width: 25%;
 }
-.type-204{
-    .static-content a.button-link {
-    background: #65c178 !important;
-    color: #fff !important;
-    height: 44px;
-    line-height: 48px;
-    font-size: 18px;
-    display: inline-block;
-    border-radius: 3px;
-    text-transform: capitalize;
-    margin-top: 20px;
+.type-204 .static-content a.button-link {
+  background: #65c178 !important;
+  color: #fff !important;
+  height: 44px;
+  line-height: 48px;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 3px;
+  text-transform: capitalize;
+  margin-top: 20px;
 }
-.static-content a.button-link:hover {
-    background: #E44F4F !important;
+.type-204 .static-content a.button-link:hover {
+  background: #E44F4F !important;
 }
-.static-content ul li {
-    position: relative;
-    padding: 5px 10px;
-    border-right: none;
-    width: 70%;
-    float: left;
+.type-204 .static-content ul li {
+  position: relative;
+  padding: 5px 10px;
+  border-right: none;
+  width: 70%;
+  float: left;
 }
-.static-content ul li i {
-    color: #ffa200;
-    margin-right: 10px;
+.type-204 .static-content ul li i {
+  color: #ffa200;
+  margin-right: 10px;
 }
-.mega-menu-5 {
-    left: -210% !important;
-    width: 900px !important;
-    padding: 20px 10px 0px 0px;
+.type-204 .mega-menu-5 {
+  left: -210% !important;
+  width: 900px !important;
+  padding: 20px 10px 0px 0px;
 }
-.mega-menu-5.ft-mega {
-    left: -222% !important;
+.type-204 .mega-menu-5.ft-mega {
+  left: -222% !important;
 }
-.mega-menu.mega-menu-5.fastr2 {
-    left: -423% !important;
-    padding: 20px 0 0;
+.type-204 .mega-menu.mega-menu-5.fastr2 {
+  left: -423% !important;
+  padding: 20px 0 0;
 }
-.block-menu-img {
-    float: left;
-    width: 30%;
-}
+.type-204 .block-menu-img {
+  float: left;
+  width: 30%;
 }

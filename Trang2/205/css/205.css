@@ -1,145 +1,149 @@
-.type-205 {
-    .slider-area .nivo-caption .layer-1 img {
-    width: 26%;
-    left: 20%;
-    top: 5%;
+.type-205 .slider-area .nivo-caption .layer-1 img {
+  width: 26%;
+  left: 20%;
+  top: 5%;
 }
-.slider-area .nivo-caption .layer-1-1 img {
-    width: 40%;
-    left: 16%;
-    top: 16%;
+.type-205 .slider-area .nivo-caption .layer-1-1 img {
+  width: 40%;
+  left: 16%;
+  top: 16%;
 }
-.slider-area .nivo-caption .layer-1-2 img {
-    width: 28%;
-    left: 16%;
-    top: 5%;
+.type-205 .slider-area .nivo-caption .layer-1-2 img {
+  width: 28%;
+  left: 16%;
+  top: 5%;
 }
-.slider-area .nivo-caption .lft-pr h2 {
-    margin-right: 20%;
-    font-size: 48px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #9ab66f
+.type-205 .slider-area .nivo-caption .lft-pr h2 {
+  margin-right: 20%;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9ab66f;
 }
-.slider-area .nivo-caption .lft-pr h3 {
-    margin-right: 20%;
-    font-size: 48px;
-    font-weight: 700;
+.type-205 .slider-area .nivo-caption .lft-pr h3 {
+  margin-right: 20%;
+  font-size: 48px;
+  font-weight: 700;
 }
-.slider-area .nivo-caption .lft-pr h4 {
-    margin-right: 20%;
-    font-size: 82px;
-    font-weight: 700;
-    color: #f8825e;
+.type-205 .slider-area .nivo-caption .lft-pr h4 {
+  margin-right: 20%;
+  font-size: 82px;
+  font-weight: 700;
+  color: #f8825e;
 }
-.slider-area .nivo-caption .lft-pr a {
-    margin-right: 20%;
-    margin-right: 20%;
-    background: black;
-    color: #fff;
-    margin-top: 0px;
-    overflow: hidden;
-    display: inline-block !important;
-    font-weight: 700;
-    padding: 12px 20px;
-    font-size: 18px;
-    background: #ffa200;
-    border-radius: 3px;
+.type-205 .slider-area .nivo-caption .lft-pr a {
+  margin-right: 20%;
+  background: black;
+  color: #fff;
+  margin-top: 0px;
+  overflow: hidden;
+  display: inline-block !important;
+  font-weight: 700;
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #ffa200;
+  border-radius: 3px;
 }
-.slider-area .nivo-caption .lft-pr a:hover {
-    background: #e44f4f;
+.type-205 .slider-area .nivo-caption .lft-pr a:hover {
+  background: #e44f4f;
 }
-.creative-banner {
-    background: #fff;
-    padding: 35px 0;
-    border-bottom: 1px solid #ededed;
+.type-205 .creative-banner {
+  background: #fff;
+  padding: 35px 0;
+  border-bottom: 1px solid #ededed;
 }
-.banner-box-1 {
-    background: url(free_shipping.png) no-repeat left top;
+.type-205 .banner-box-1 {
+  background: url(free_shipping.png) no-repeat left top;
 }
-.banner-box-2 {
-    background: url(money_back.png) no-repeat left top;
+.type-205 .banner-box-2 {
+  background: url(money_back.png) no-repeat left top;
 }
-.banner-box-3 {
-    background: url(payment.png) no-repeat left top;
+.type-205 .banner-box-3 {
+  background: url(payment.png) no-repeat left top;
 }
-.banner-inner {
-    padding-left: 70px;
+.type-205 .banner-inner {
+  padding-left: 70px;
 }
-.banner-inner p {
-    padding: 0;
-    margin: 0;
-    color: #555;
-    line-height: 25px;
+.type-205 .banner-inner p {
+  padding: 0;
+  margin: 0;
+  color: #555;
+  line-height: 25px;
 }
-.banner-inner .banner-title {
-    color: #444;
-    font-size: 21px;
-    font-weight: bold;
-    padding-bottom: 3px;
-  	text-transform: uppercase;
+.type-205 .banner-inner .banner-title {
+  color: #444;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  text-transform: uppercase;
 }
-
-.left-slide .title-container {
-    left: 10%;
-    position: absolute;
-    top: 65%;
+.type-205 .left-slide .title-container {
+  left: 10%;
+  position: absolute;
+  top: 65%;
 }
-.left-slide .title-container h1 {
-    font-size: 48px;
-    margin: 0;
+.type-205 .left-slide .title-container h1 {
+  font-size: 48px;
+  margin: 0;
 }
-.left-slide .title-container h3 {
-    font-size: 37px;
-    font-weight: 100;
-    padding-left: 10%;
+.type-205 .left-slide .title-container h3 {
+  font-size: 37px;
+  font-weight: 100;
+  padding-left: 10%;
 }
-.advertise-area {
-    overflow: hidden;
+.type-205 .advertise-area {
+  overflow: hidden;
 }
-.single-add {
-    position: relative;
+.type-205 .single-add {
+  position: relative;
 }
-.vina-banner a:hover::before,
-.vina-banner a:hover::after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+.type-205 .vina-banner a:hover::before,
+.type-205 .vina-banner a:hover::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
-.vina-banner a::before,
-.vina-banner a::after {
-    content: "";
-    opacity: 0;
-    position: absolute;
-    -webkit-transform: scale(0, 1);
-            transform: scale(0, 1);
-    -webkit-transition: opacity 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
-    transition: opacity 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
-    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
-    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
-    z-index: 1;
+.type-205 .vina-banner a::before,
+.type-205 .vina-banner a::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: opacity 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+  transition: opacity 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+  z-index: 1;
 }
-.vina-banner a::before {
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    bottom: 15%;
-    left: 7%;
-    right: 7%;
-    top: 15%;
-    -webkit-transform-origin: 0 0 0;
-            transform-origin: 0 0 0;
+.type-205 .vina-banner a::before {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  bottom: 15%;
+  left: 7%;
+  right: 7%;
+  top: 15%;
+  -webkit-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
 }
-.vina-banner a::after {
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    bottom: 7%;
-    left: 15%;
-    right: 15%;
-    top: 7%;
-    -webkit-transform-origin: 100% 0 0;
-            transform-origin: 100% 0 0;
+.type-205 .vina-banner a::after {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  bottom: 7%;
+  left: 15%;
+  right: 15%;
+  top: 7%;
+  -webkit-transform-origin: 100% 0 0;
+  transform-origin: 100% 0 0;
 }
-.mt20 {
-    margin-top: 20px;
+.type-205 .mt20 {
+  padding-top: 20px;
 }
+@media (max-width: 1000px) {
+  .type-205 .left-slide-add {
+    display: none;
+  }
+}
+.type-205 .cot {
+  height: 350px;
 }

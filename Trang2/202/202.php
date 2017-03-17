@@ -34,18 +34,18 @@
 					<ul>
 					  
 					  <li class="">
-						<a href="/account">My Account</a>
+						<a href="#">My Account</a>
 					  </li>
 					  
 					  <li class="">
-						<a href="/cart">My Cart</a>
+						<a href="#">My Cart</a>
 					  </li>
 					  
 					  
 					  <li><a href="/account/login">My wishlist</a></li>
 							  
 					  
-					  <li><a class="lastbdr" href="/account/login/">Login</a></li>
+					  <li><a class="lastbdr" href="#">Login</a></li>
 					  
 					</ul>
 					</nav>

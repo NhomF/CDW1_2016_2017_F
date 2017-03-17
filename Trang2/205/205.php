@@ -5,6 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/nivo-slider.css" rel="stylesheet" type="text/css"/>
@@ -37,10 +38,10 @@
                                         <div class="bend niceties preview-2">
                                             <div id="ensign-nivoslider-2" class="slides nivoSlider">
                                             
-                                                <img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/slide1_image.jpg?9505275038261115088" alt="orion" title="#slider-direction-1" style="width: 770px; visibility: hidden;">
-                                                <img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/slide2_image.jpg?9505275038261115088" alt="orion" title="#slider-direction-2" style="width: 770px; visibility: hidden;">
-                                                <img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/slide1_image.jpg?9505275038261115088" alt="orion" title="#slider-direction-1" style="width: 770px; visibility: hidden;">
-                                                <img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/slide2_image.jpg?9505275038261115088" alt="orion" title="#slider-direction-2" style="width: 770px; visibility: hidden;">
+                                                <img src="images/slide1_image.jpg" alt="orion" title="#slider-direction-1" style="width: 770px; visibility: hidden;">
+                                                <img src="images/slide2_image.jpg" alt="orion" title="#slider-direction-2" style="width: 770px; visibility: hidden;">
+                                                <img src="images/slide1_image.jpg" alt="orion" title="#slider-direction-1" style="width: 770px; visibility: hidden;">
+                                                <img src="images/slide2_image.jpg" alt="orion" title="#slider-direction-2" style="width: 770px; visibility: hidden;">
                                                
                                                 <div class="nivo-caption" style="display: none;">
                                                     <div class="slider-content t-lfl slider-2">
@@ -142,19 +143,21 @@
                             <!--advertise area start-->
 
                             <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="cot">
                                 <div class="left-slide-add">
                                     <div class="single-add vina-banner">
 
-                                        <a href="#"><img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/add-half1.jpg?9505275038261115088" alt="orion"> </a>
+                                        <a href="#"><img src="images/add-half1.jpg" alt="orion"> </a>
 
                                     </div>
 
                                     <div class="single-add vina-banner mt20">
 
-                                        <a href="#"><img src="//cdn.shopify.com/s/files/1/1242/1356/t/3/assets/add-half2.jpg?9505275038261115088" alt="orion"> </a>
+                                        <a href="#"><img src="images/add-half2.jpg" alt="orion"> </a>
 
                                     </div>  
                                 </div>
+                            </div>
                             </div>
 
                             <!--advertise area end-->
