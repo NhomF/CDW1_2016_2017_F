@@ -12,9 +12,6 @@
   margin: 0;
   display: inline-block;
 }
-.type-105 body {
-  background: white;
-}
 .type-105 .store-badge {
   vertical-align: middle;
 }
@@ -26,6 +23,17 @@
 }
 .type-105 .app {
   text-align: center;
+}
+.type-105 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-105 .app-display {
+  display: inline-block;
+  max-width: 460px;
+  vertical-align: middle;
+  position: relative;
 }
 @media only screen and (min-width: 780px) {
   .type-105 .store-badge {
@@ -109,20 +117,4 @@
   .type-105 .footer-links li:not(:last-child) {
     margin-right: 30px;
   }
-}
-.type-105 img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.type-105 img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.type-105 .app-display {
-  display: inline-block;
-  max-width: 460px;
-  vertical-align: middle;
-  position: relative;
 }

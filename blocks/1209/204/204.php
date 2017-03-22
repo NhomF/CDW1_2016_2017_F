@@ -9,7 +9,7 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/meanmenu.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/owl.theme.css" rel="stylesheet" type="text/css"/>
-        
+        <link href="css/preview.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.owl.carousel.min.js"></script>
         <script src="js/jquery.meanmenu.js"></script>
         <?php

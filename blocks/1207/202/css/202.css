@@ -1,13 +1,6 @@
 .type-202 .col-xs-12 {
   width: 100%;
 }
-.type-202 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
 .type-202 .single-menu {
   text-align: right;
 }
@@ -37,7 +30,7 @@
   background: #eae5e5;
   border-bottom: 1px solid #efefef;
 }
-.type-202  .home-2-waraper {
+.type-202 .home-2-waraper {
   width: 1230px;
   box-shadow: 8px 0 5px -5px #ededed, -8px 0 5px -5px #ededed;
   overflow: hidden;

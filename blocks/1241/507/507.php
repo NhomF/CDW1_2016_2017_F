@@ -22,7 +22,7 @@
 		$less->compileFile('less/507.less', 'css/507.css');
 		?>
         <link href="css/507.css" rel="stylesheet" type="text/css"/>
-
+		<link href="css/preview.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>

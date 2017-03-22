@@ -1,13 +1,7 @@
-.type-204 #home-2 .home-2-waraper {
+.type-204 .home-2-waraper {
   width: 1230px;
-  box-shadow: 8px 0 5px -5px #ededed, -8px 0 5px -5px #ededed;
   overflow: hidden;
   margin: 0 auto;
-}
-.type-204 body {
-  background: rgba(0,0,0,0) url(body-bg.png) repeat scroll 0 0;
-  color: #666666;
-  font-family: "Open Sans", sans-serif;
 }
 .type-204 .header-bottom {
   background: #f5f5f5;

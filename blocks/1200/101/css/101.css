@@ -1,19 +1,13 @@
-.type-101{
-a {
+.type-101 a {
   text-decoration: none;
   color: #505050;
 }
-
-body {
-  background: white;
-}
-
-img {
+.type-101 img {
   width: 100%;
   height: auto;
   display: block;
 }
-.logo {
+.type-101 .logo {
   display: inline-block;
   vertical-align: middle;
   padding: 10px 0;
@@ -21,6 +15,4 @@ img {
   left: 26px;
   z-index: 10;
   width: 80px;
-}
-
 }

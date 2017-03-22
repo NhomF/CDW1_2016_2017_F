@@ -1,10 +1,6 @@
 .type-501 .mod-menu-main .clear {
   clear: both;
 }
-.type-501 .mod-menu-main body {
-  padding-bottom: 40px;
-  font-family: Arial, Tahoma, sans-serif;
-}
 .type-501 .mod-menu-main a:hover {
   text-decoration: none;
 }

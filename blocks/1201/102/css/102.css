@@ -27,9 +27,6 @@
 .type-102 button:active {
   outline: none;
 }
-.type-102 body {
-  background: white;
-}
 .type-102 header {
   padding: 10px 0;
 }
@@ -108,7 +105,4 @@
   .type-102 .link-menu {
     display: inline-block;
   }
-}
-.type-102 .container {
-  height: 1000px;
 }
