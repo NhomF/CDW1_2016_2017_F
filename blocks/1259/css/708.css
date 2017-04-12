@@ -1,0 +1,86 @@
+.type-708{
+    margin: 0;
+    padding-bottom: 17px;
+    font-size: 24px;
+    position: relative;
+    .h3{
+        font-size: 24px;
+    }
+    .line{
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 55px;
+        height: 2px;
+        background: #fd907a;
+    }
+    .widget_content{
+        margin: 15px 0 0 0;
+        .ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: none !important;
+            vertical-align: top;
+            background: transparent
+        }
+        .product{
+            overflow: hidden;
+            padding: 15px 0;
+            margin-left: -50px;
+
+            .product_img{
+                width: 100px;
+                float: left;
+                margin-right: 15px;
+            }
+            .product_info{
+                overflow: hidden;
+                .product_name{
+                    text-transform: uppercase;
+                    line-height: 1.57em;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #202020;
+                    a{
+                        color: #5a5a5a;
+                    }
+                }
+                .product_price{
+                    margin: 10px 0;
+                    font-size: 14px;
+                    font-weight: 700;
+                    .compare-at-price{
+                        font-weight: 400;
+                        color: #5a5a5a
+                    }
+                }
+                .product_links{
+                    text-align: center;
+                    .btn{
+                        height: 40px;
+                        line-height: 38px;
+                        padding: 0px 20px;
+                        font-weight: 700;
+                        background: #fff;
+                        border: 2px solid #343434;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        color: #343434;
+                        -webkit-border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        border-radius: 20px
+                    }
+                    .btn:hover{
+                        background: #fff;
+                        border-color: #fd907a;
+                        color: #fd907a;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

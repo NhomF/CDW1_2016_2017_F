@@ -1,0 +1,101 @@
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.type-701 {
+    .header_top{
+        padding: 7px 0 6px;
+        background: #343434;
+        font-size: 13px;
+        color: #fff;
+        .header_user{
+            float: left;
+            padding-left: 0;
+            li{
+                display: inline-block;
+                padding-right: 30px;
+            }
+        }
+        ul{
+            margin-bottom: 0;
+            list-style: none;
+        }
+        a{
+            color: #fff;
+        }
+        .header_currency{
+            float: right;
+            display: inline-block;
+            select{
+                background: #343434;
+                border: none;
+                border-bottom: solid 1px #fd907a;
+                padding: 0 15px;
+            }
+
+            option{
+                background: #fff;
+                color: #5a5a5a;
+            }
+        }
+    }
+    .header_main{
+        padding: 50px 0;
+        margin-bottom: 50px;
+        .glyphicon{
+            color: #fd907a;
+        }
+        a{
+            color: #5a5a5a;
+        }
+        .header_custom{
+            padding-top: 3px;
+            padding-left: 0;
+            a{
+                color: #fd907a;
+            }
+        }
+        .wishlist_header{
+            padding-top: 18px;
+            padding-right: 0;
+            text-align: right;
+            vertical-align: -1px;
+        }
+        .header_cart{
+            text-align: right;
+            white-space: nowrap;
+            float: right;
+            margin-left: 30px;
+            #cart_items{
+                display: inline-block;
+                margin: 0 11px;
+                padding: 0 2px;
+                height: 20px;
+                line-height: 20px;
+                min-width: 20px;
+                text-align: center;
+                vertical-align: 2px;
+                font-size: 12px;
+                background: #fd907a;
+                color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+    @media(max-width: 768px){
+        .header_main{
+            .header_custom, .logo{
+                text-align: center;
+            }
+            .wishlist_header{
+                text-align: left;
+                padding-left: 0px;
+            }
+            .header_cart{
+                margin-left: 0px;
+            }
+           
+        }
+    }
+}

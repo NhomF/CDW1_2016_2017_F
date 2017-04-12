@@ -1,0 +1,220 @@
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+
+}
+ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+ul.type-712 li{
+    float: left;
+    margin: 5px 5px 0 0;
+}
+ul.type-712 li.active a {
+    background: #fd907a;
+    border: 1px solid #fd907a;
+    color: #fff;
+}
+ul.type-712 li a{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #f5f5f6;
+    background: #fff;
+    color: #343434;
+    border-radius: 10px
+}
+ul.type-712 li a:hover{
+    background: #fd907a;
+    border: 1px solid #fd907a;
+    color: #fff;
+}
+/*coletion*/
+.collection_img{ 
+    margin-top: 15px;
+}
+.collection_desc{
+    margin-top: 15px;
+    .rte{
+        font-size: 17px;
+        color: #5a5a5a;
+    }
+}
+/*list---gril*/
+.product_listing_controls{
+    overflow: hidden;
+    margin: 50px 0 0 0;
+    padding: 0 10px 10px 10px;
+    border-top: 1px solid #f5f5f6;
+    border-bottom: 1px solid #f5f5f6;
+    .product_listing_toggle{
+        float: left;
+    }
+    .product_listing_toggle li {
+        float: left;
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin: 10px 10px 0 0;
+        border: 1px solid transparent;
+        color: #bdbdbd;
+        text-align: center;
+    }
+    .product_listing_toggle li .active{
+        background: #fff;
+        border-color: #f5f5f6;
+        color: #202020;
+        cursor: default;
+    }
+    .product_listing_toggle li:hover{
+        color: #fd907a;
+    }
+    .sort_by{
+        float: right;
+        margin: 10px 0 0 10px;
+        margin-right: 0px;
+        label{
+            font-weight: 400;
+        }
+    }
+
+    .show_products{
+        float: right;
+        margin: 10px 0 0 10px;
+        label{
+            font-weight: 400;
+        }
+    }
+}
+
+
+
+.type-712{
+
+    h1 {
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    input {
+        height: 2.5em;
+        visibility: hidden;
+    }
+
+    label {
+        cursor: pointer;
+        display: block;
+        float: left;
+        font-size: 1em;  /* Tamaño del texto de las pestañas */
+
+        margin-right: .25em;
+        padding: 0 1.5em;
+        text-align: center;
+        padding: 5px 10px;
+        border: 1px solid #f5f5f6;
+        background: #fff;
+        color: #343434;
+        border-radius: 10px
+    }
+
+    input:hover + label {
+        background: #fd907a;
+        border: 1px solid #fd907a;
+        color: #fff;
+    }
+
+    input:checked + label {
+        /* Fondo de las pestañas al presionar */
+        /* Color de las pestañas al presionar */
+        position: relative;
+        z-index: 6;
+        background: #fd907a;
+        border: 1px solid #fd907a;
+        color: #fff;
+
+    }
+
+    #content {
+        border-radius: 0 .25em .25em .25em;
+        min-height: 20em;  /* Alto del contenido */
+        position: relative;
+        width: 100%;
+        z-index: 5;
+        max-height: auto;
+    }
+
+    #content div {
+        opacity: 0;
+        padding: 1.5em;
+        position: absolute;
+        z-index: -100;
+        /*
+        transition: all linear 0.1s;
+        */
+    }
+    #content-0{
+        /*coletion*/
+        p{
+            padding-top: 35px;
+            font-size: 17px;
+            color: #5a5a5a;
+        }
+        img{
+            float: left;
+        }
+    }
+    #content-1 p {
+        clear: both;
+        margin-bottom: 1em;
+        font-size: 17px;
+        color: #5a5a5a;
+    }
+    #content-1 p.left img {
+        float: left;
+        margin-right: 1em;
+    }
+    #content-1 p.last {
+        margin-bottom: 0;
+    }
+
+    #content-2 p {
+        float: left;
+        width: 48.5%;
+    }
+    #content-2 p.column-right {
+        margin-left: 3%;
+    }
+    #content-2 p img {
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+    #content-3 p,
+    #content-3 ul {
+        margin-bottom: 1em;
+    }
+    #content-3 ul {
+        margin-left: 2em;
+    }
+
+    input#tab-1:checked ~ #content #content-0,
+        input#tab-2:checked ~ #content #content-1,
+        input#tab-3:checked ~ #content #content-2,
+        input#tab-4:checked ~ #content #content-3,
+        input#tab-5:checked ~ #content #content-4
+        {
+        opacity: 1;
+        z-index: 100;
+    }
+
+    input.visible {
+        visibility: visible !important;
+    }
+
+
+
+}
+
