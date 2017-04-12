@@ -40,6 +40,7 @@
                     </div>
                     <div class="opa"></div>
                     <div class="name">
+					<div class="blue"></div>
                         <h2>Vivamus finibus magna nec sed</h2>
                         <span class="big">In tempor sollicitudin sagittis! nullam</span>
                     </div>
