@@ -1,0 +1,27 @@
+.type-604 .row {
+  margin-right: 0px;
+}
+.type-604 .pd-list-item:hover .pd-screen-img img {
+  opacity: 0.7;
+}
+.type-604 .pd-screen-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.type-604 .row {
+  display: block;
+}
+.type-604 ins {
+  color: #ff788b;
+}
+.type-604 .col-clothes {
+  padding: 0;
+}
+.type-604 .images_container {
+  margin: 0 !important;
+}
+@media (min-width: 1200px) {
+  .type-604 .container {
+    width: 1180px;
+  }
+}

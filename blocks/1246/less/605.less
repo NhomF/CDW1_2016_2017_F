@@ -1,0 +1,309 @@
+.type-605{    
+    .row{
+        margin-top: 20px;
+        img{
+            width: 100%;
+            max-width: 100%;
+        }		
+    }
+    
+   
+    
+    
+    /*************************demo*******************************/
+
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /****************************demo************************/
+    .carousel-showmanymoveone
+    {
+        .carousel-control
+        { 
+            width: 4%;
+            background-image:none;
+
+            &.left 
+            {
+                margin-left:15px;
+            }
+
+            &.right 
+            {
+                margin-right:15px;
+            }
+        }
+        
+        .carousel-inner
+        {
+            @media all and (min-width: 768px)
+                {
+                @media (transform-3d), (-webkit-transform-3d)
+                {
+                    > .item.active.right,
+                    > .item.next
+                    { 
+                        transform: translate3d(50%, 0, 0);  
+                        left: 0;
+                    }
+                    > .item.active.left,
+                    > .item.prev
+                    { 
+                        transform: translate3d(-50%, 0, 0);
+                        left: 0;
+                    }
+                    > .item.left,
+                    > .item.prev.right,
+                    > .item.active
+                    {
+                        transform: translate3d(0, 0, 0);
+                        left: 0;
+                    }    
+                } 
+                > .active.left,
+                > .prev
+                {
+                    left: -50%;
+                }
+                > .active.right,
+                > .next
+                {
+                    left:  50%;
+                }
+                > .left,
+                > .prev.right,
+                > .active
+                {
+                    left: 0;
+                }
+                
+            }
+            @media all and (min-width: 992px)
+                {    
+                @media (transform-3d), (-webkit-transform-3d)
+                {
+                    > .item.active.right,
+                    > .item.next
+                    { 
+                        transform: translate3d(25%, 0, 0);  
+                        left: 0;
+                    }    
+                    > .item.active.left,
+                    > .item.prev
+                    { 
+                        transform: translate3d(-25%, 0, 0);
+                        left: 0;
+                    }
+                    > .item.left,
+                    > .item.prev.right,
+                    > .item.active
+                    {
+                        transform: translate3d(0, 0, 0);
+                        left: 0;
+                    }
+                }
+                > .active.left,
+                > .prev
+                {
+                    left: -25%;
+                }
+                > .active.right,
+                > .next
+                {
+                    left:  25%;
+                }
+                > .left,
+                > .prev.right,
+                > .active
+                {
+                    left: 0;
+                }
+                
+            }    
+        }
+    }
+    // demo setup only, not needed for carousel
+    .container
+    {
+        margin-bottom: 50px;
+    }
+    body
+    {
+        font-family: 'Bitter', sans-serif;
+        color: #E54A41;
+        background-image: url('//static.rtpdesign.co.uk/blog/img/background.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 20%;
+    }
+    p
+    {
+        font-family: 'Open Sans', sans-serif;
+        color: #333;
+        margin-bottom: 2em;
+    }
+    h2
+    {
+        margin: 2em 0 1em;
+    }
+
+    
+    /******************************************************/
+    .carousel-control.left,.carousel-control.right {background-image:none;}
+    .item:not(.prev) {visibility: visible;}
+    .item.right:not(.prev) {visibility: hidden;}
+    
+    .entry-content{
+        text-align: left;
+    }
+    .row {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+    .title1{
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    
+    
+    h3{
+        text-align: left;
+        font-weight: bold;
+    }
+    .title a{
+        color: #000;
+    }
+    .title a:hover{
+        color: #ff8dba;
+    }
+    .col-sm-2{
+        padding: 20px;
+    }
+    .col-sm-10{
+        padding: 70px;
+        text-align: left;
+    }
+    .title2{
+        text-align: center;
+    }
+    .tm_product{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 0.8em;
+    }
+    .add-to-cart{
+        text-align: center;
+    }
+    .sale{
+        text-align: center;
+    }	   
+    body{padding-top:20px;}
+    .carousel1 {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+    /* The controlsy */
+    .left1{
+        position: absolute;
+        top: 130px;
+    }
+    .right1 {
+        position: absolute;
+        top: 130px;
+        right: 55px;
+    }
+    /* The indicators */
+    .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: -10px;
+        margin-right: -19px;
+    }
+    /* The colour of the indicators */
+    .carousel-indicators li {
+        background: #cecece;
+    }
+    .carousel-indicators .active {
+        background: #428bca;
+    }
+    .tit{
+        color: #414546;
+        text-decoration: none;
+    }
+    .tit:hover{
+        color:  #ff788b;
+    }
+    .post__author{
+        color: #ff788b;
+        text-decoration: none;
+    }
+    .post__author:hover{
+        color: #414546;
+    }
+    .post-comments-link{
+        color: #ff788b;
+        text-decoration: none;
+    }
+    .post-comments-link:hover{
+        color: #414546;
+    }
+    .btn{
+        color: #ffffff;
+        background: linear-gradient(to right,#ff788b 30%,#fe80aa 100%);
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    .btn:hover{
+        transition: 0.5s all;
+        color: #414546;
+        background: linear-gradient(to right,#fe80aa 30%,#ff788b 100%);
+    }
+    .carousel-inner{
+        padding-bottom: 70px;
+    }
+    .carousel-control .glyphicon-chevron-left{
+        top: 30%;
+    }
+    .carousel-control .glyphicon-chevron-right{
+        top: 30%;
+    }
+    .entry-meta{
+        padding-bottom: 20px;
+    }
+    /*-----------------di dong---------------------*/
+    @media (max-width: 1200px){
+        .dress-box{
+            height: 284px;
+        }
+    }
+    @media (max-width: 992px){
+        .dress-detail{
+            padding-left: 5px;
+        }
+        .title-dress{
+            font-size: 30px;
+        }
+        .dress-box{
+            height: 210px;
+        }
+    }
+    @media (max-width: 768px){
+        .dress-box{
+            height: 343px;
+        }
+    }
+    @media (max-width: 530px){
+        .dress-box{
+            height: 210px;
+        }
+    }
+    @media (max-width: 420px){
+        .dress-box{
+            height: 178px;
+        }
+    }	
+}

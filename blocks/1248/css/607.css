@@ -1,0 +1,218 @@
+.type-607 img,
+.type-607 a {
+  transition: 0.5s all ease;
+}
+@media (min-width: 1200px) {
+  .type-607 .container {
+    min-width: 1180px;
+  }
+}
+.type-607 .click-top {
+  position: fixed;
+  z-index: 1;
+  bottom: 80px;
+  right: 60px;
+  padding: 18px;
+  border: 2px solid #ff788b;
+  border-radius: 10px;
+  color: #ff788b;
+}
+.type-607 .click-top:hover {
+  background: #ff788b;
+  color: #fff;
+}
+.type-607 .woocommerce-result-count {
+  float: left;
+  color: #898989;
+  margin-top: 6px;
+  margin-left: -15px;
+}
+.type-607 .dropdown {
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+.type-607 .dropdown button:hover {
+  color: #ff788b;
+  transition: 0.5s;
+}
+.type-607 .dropdown a {
+  font-weight: bold;
+  padding: 5px 0px;
+}
+.type-607 .dropdown a:hover {
+  color: #ff788b;
+  background: none;
+}
+.type-607 .btn {
+  background-color: none;
+  border: none;
+  color: #aaa;
+  margin-right: -10px;
+}
+.type-607 .btn:hover {
+  background: none !important;
+}
+.type-607 .dropdown-menu {
+  border: none;
+}
+.type-607 .hover1:hover {
+  margin-right: 20px;
+  color: #ff788b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.type-607 .hover1 {
+  margin-right: 20px;
+  color: #414546;
+  font-weight: bold;
+}
+.type-607 .pd-list-item:hover .pd-screen-img img {
+  opacity: 0.7;
+}
+.type-607 .text h1 {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+.type-607 .price_add {
+  text-align: center;
+}
+.type-607 .price {
+  cursor: -webkit-grab;
+}
+.type-607 .pd-list {
+  padding-bottom: 50px;
+}
+.type-607 .pd-screen-img span.onsale {
+  width: 58px;
+  height: 29px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: Roboto;
+  color: #ffffff;
+  background: linear-gradient(to right,#ff788b 0%,#fe80aa 100%);
+  left: 50%;
+  bottom: 120px;
+  min-height: 1px;
+  min-width: 1px;
+  line-height: 1.33;
+  padding: 5px 13px;
+  border-radius: 30px;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+.type-607 .child-shopping-cart {
+  margin: 5px 10px;
+  min-height: 1px;
+  min-width: 1px;
+  padding: 15px;
+  border-radius: 50px;
+}
+.type-607 .child-shopping-cart:hover {
+  background: #ff788b;
+}
+.type-607 .pd-screen-img p {
+  text-align: center;
+  margin-top: 20px;
+}
+.type-607 .pd-screen-img {
+  text-align: center;
+}
+.type-607 .row .price_add {
+  display: block;
+  padding-bottom: 30px;
+}
+.type-607 .woocommerce-Price-currencySymbol1 {
+  color: #000000;
+  margin-left: 30px;
+}
+.type-607 .woocommerce-Price-currencySymbol {
+  color: #ff788b;
+}
+.type-607 .row span.onsale {
+  position: absolute;
+  text-align: center;
+  margin: 0;
+}
+.type-607 .price_add {
+  opacity: 0;
+  transition: 1s all ease;
+}
+.type-607 .col-sale-off .price_add {
+  opacity: 1;
+  transition: 1s all ease;
+}
+.type-607 .fa-shopping-cart {
+  color: black;
+}
+.type-607 .fa-shopping-cart:hover {
+  color: white;
+}
+.type-607 .tuychon span {
+  margin-right: 20px;
+}
+.type-607 .tuychon {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.type-607 .heart-retweet {
+  position: relative;
+  top: -142px;
+  opacity: 0;
+}
+.type-607 .fa-retweet:before {
+  font-size: 25px;
+  margin-left: 15px;
+  color: #ff788b;
+}
+.type-607 .fa-heart:before {
+  font-size: 25px;
+  color: #ff788b;
+}
+.type-607 .pd-screen-img:hover .heart-retweet {
+  transition: 0.5s all ease;
+  opacity: 1;
+}
+.type-607 .phantrang {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.type-607 .phantrang .page2 {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #898989;
+}
+.type-607 .phantrang .page2:hover {
+  color: #ff788b;
+}
+.type-607 .phantrang .page1 {
+  text-decoration: none;
+  color: #ff788b;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.type-607 .next {
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.type-607 .next:hover {
+  color: #ff788b;
+}
+@media all and (max-width: 768px) {
+  .type-607 .text h1 {
+    font-size: 42px;
+  }
+  .type-607 .next {
+    display: none;
+  }
+}

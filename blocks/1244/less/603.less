@@ -1,0 +1,158 @@
+.type-603{
+    .pd-list-item:hover .pd-screen-img img {
+        opacity: 0.7; 
+    }   
+    .price_add{
+        text-align: center;       
+    }
+    .price{
+        cursor: -webkit-grab;
+    }
+    .pd-list{
+        padding-bottom: 100px;
+    }
+    .image_sale{
+        display: inline-block;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+    .pd-screen-img span.onsale{
+        width: 58px;
+        height: 29px;
+        bottom: 80px;
+        font-weight: 300;
+        font-style: normal;
+        font-family: Roboto;
+        color: #ffffff;
+        background: linear-gradient(to right, #ff788b 0%,#fe80aa 100%);
+        min-height: 1px;
+        min-width: 1px;
+        line-height: 1.33;
+        padding: 5px 13px;
+        border-radius: 30px;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+    .child-shopping-cart{
+        margin: 5px 10px;
+        min-height: 1px;
+        min-width: 1px;
+        padding: 15px;
+        border-radius: 50px;
+    }   
+    .child-shopping-cart:hover{
+        background: #ff788b;
+    }
+    .row .price_add{
+        display: block;
+        padding-top: 15px;
+    }
+
+    .woocommerce-Price-currencySymbol1{
+        color: #000000;
+    }
+    .woocommerce-Price-currencySymbol {
+        color: #ff788b;
+        margin-right: 15px;
+
+    }
+    .row span.onsale{
+        position: absolute;
+        text-align: center;
+        margin: 0;
+
+    }
+    .price_add
+    {
+        opacity: 0;  
+        visibility: hidden;
+        transition: 0.5s all ease;
+    }
+    .col-sale-off:hover {
+        .price_add
+        {
+            opacity: 1;  
+            visibility: visible;
+            transition: 0.5s all ease;
+        }
+    }
+    .fa-shopping-cart{
+        color: black;
+        transition: 0.5s all ease;
+    } 
+    .fa-shopping-cart:hover{
+        color: white;
+    }   
+    .text-sale-off h4{
+        font-weight: bold;
+        font-size: 35px;
+        margin: 60px 0;
+    }
+    .heart-retweet{    
+        position: relative;
+        bottom: 150px;
+        text-align: center;
+        transition: 0.5s all ease;
+        height: 30px;
+        display: block;     
+    }
+    .fa-retweet:before{
+        font-size: 0px;
+        color: #ff788b;
+        transition: 0.5s all ease;
+    }
+    .fa-heart:before{
+        font-size: 0px;
+        color: #ff788b;
+        transition: 0.5s all ease;
+    }
+    .pd-screen-img{
+        text-align: center;
+    }
+     .fa-heart{
+            width: 0px;
+            height: 0px;
+            transition: 0.5s all ease;
+        }
+    .fa-retweet{
+        width: 0px;
+        height: 0px;
+        transition: 0.5s all ease;
+    }
+    .pd-screen-img:hover{
+        .fa-heart:before{
+          font-size: 25px;
+        }
+        .fa-retweet:before{
+          font-size: 25px;
+        }
+        .fa-heart{
+            width: 30px;
+            height: 30px;
+            margin:0 10px;
+        }
+        .fa-retweet{
+            width: 30px;
+            height: 30px;
+            margin:0 10px;
+        }
+    }
+    @media (max-width: 768px){
+        .col-sale-off{
+            width: 50% !important;
+            float: left;
+        }
+    }
+     @media (max-width: 540px){
+        .col-sale-off{
+            width: 100% !important;
+        }
+    }
+     @media (min-width: 1200px){
+        .container{
+            width: 1180px;
+        }
+    }
+}

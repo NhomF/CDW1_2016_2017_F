@@ -1,0 +1,18 @@
+.type-602 .banner {
+  padding: 0;
+}
+.type-602 .banner img {
+  width: 100%;
+  max-width: 100%;
+  opacity: 1;
+  transition: 0.5s all ease;
+}
+.type-602 .banner img:hover {
+  opacity: 0.7;
+  background: black;
+}
+@media (min-width: 1200px) {
+  .type-602 .container {
+    width: 1180px;
+  }
+}

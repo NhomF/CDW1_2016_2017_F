@@ -1,0 +1,222 @@
+.type-609 #exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+.type-609 .nav-pills>li.active>a,
+.type-609 .nav-pills>li.active>a:focus,
+.type-609 .nav-pills>li.active>a:hover {
+  color: #adadad;
+  background-color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.type-609 .nav>li>a:focus,
+.type-609 .nav>li>a:hover {
+  background-color: #fff;
+  font-weight: bold;
+  color: deeppink;
+}
+.type-609 .nav>li>a {
+  position: relative;
+  display: block;
+  color: #000;
+  font-weight: bold;
+  padding: 0;
+}
+.type-609 .nav>li {
+  padding: 30px 20px 0px 0px;
+}
+.type-609 div.panel {
+  margin: 0 0 2em;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .type-609 h3 {
+    font-size: 28px;
+  }
+}
+.type-609 h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.2;
+  font-family: Roboto;
+  letter-spacing: 0px;
+  text-align: inherit;
+  color: #414546;
+}
+.type-609 h1,
+.type-609 h2,
+.type-609 h3,
+.type-609 h4,
+.type-609 h5,
+.type-609 h6 {
+  margin: 27px 0;
+}
+.type-609 p {
+  margin: 8px 0;
+  color: #adadad;
+}
+.type-609 .entry-content {
+  margin: 12px 0 0;
+}
+.type-609 .entry-content table {
+  margin: 0 0 1.5em;
+  max-width: 100%;
+  border: 1px solid #e0e0e8;
+}
+.type-609 table {
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.type-609 .entry-content table th,
+.type-609 .entry-content table td {
+  padding: 5px;
+  border: 1px solid #e0e0e8;
+}
+.type-609 td,
+.type-609 th {
+  padding: 0;
+}
+.type-609 .entry-content table th,
+.type-609 .entry-content table td {
+  padding: 5px;
+  border: 1px solid #e0e0e8;
+}
+.type-609 .entry-content table th {
+  width: 50px;
+}
+@media (min-width: 992px) {
+  .type-609 h4 {
+    font-size: 22px;
+  }
+}
+.type-609 h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+  font-family: Roboto;
+  letter-spacing: 0px;
+  text-align: inherit;
+  color: #414546;
+}
+.type-609 h1,
+.type-609 h2,
+.type-609 h3,
+.type-609 h4,
+.type-609 h5,
+.type-609 h6 {
+  margin: 27px 0;
+}
+.type-609 *,
+.type-609 *:before,
+.type-609 *:after {
+  box-sizing: inherit;
+}
+.type-609 .row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+.type-609 small {
+  font-size: 80%;
+}
+.type-609 textarea {
+  width: 100%;
+  min-height: 255px;
+  border-radius: 23px;
+  resize: none;
+  -webkit-appearance: value;
+  -moz-appearance: value;
+  appearance: value;
+  background: transparent;
+  overflow: auto;
+}
+.type-609 .entry-content a {
+  border-color: #ff788b;
+}
+.type-609 a {
+  color: royalblue;
+  transition: 0.3s all ease;
+  background-color: transparent;
+  text-decoration: none;
+}
+.type-609 .pd-list-item:hover .pd-screen-img img {
+  opacity: 0.7;
+}
+.type-609 .price_add {
+  text-align: center;
+  margin-top: 25px;
+}
+.type-609 .pd-list {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.type-609 .pd-screen-img {
+  margin-right: 30px;
+}
+.type-609 .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.type-609 .fa-shopping-cart:before {
+  margin: 5px 10px;
+  min-height: 1px;
+  min-width: 1px;
+  padding: 15px;
+  line-height: 1.33;
+  border-radius: 50px;
+}
+.type-609 .fa-shopping-cart:hover {
+  background: #ff788b;
+  border-radius: 50px;
+}
+.type-609 .row .price_add {
+  display: block;
+}
+.type-609 .woocommerce-Price-currencySymbol1 {
+  color: #000000;
+}
+.type-609 .woocommerce-Price-currencySymbol {
+  color: #ff788b;
+  margin-right: 15px;
+}
+.type-609 .fa-shopping-cart {
+  color: black;
+}
+.type-609 .fa-shopping-cart:hover {
+  color: white;
+}
+.type-609 .heart-retweet {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  display: none;
+}
+.type-609 .fa-retweet:before {
+  font-size: 25px;
+  margin-left: 15px;
+  color: #ff788b;
+}
+.type-609 .fa-heart:before {
+  font-size: 25px;
+  color: #ff788b;
+}
+.type-609 .pd-screen-img:hover .heart-retweet {
+  display: block;
+}
+.type-609 .tit {
+  font-size: 0.9em;
+  padding-top: 15px;
+  text-align: center;
+}
+.type-609 .img {
+  width: 100%;
+}

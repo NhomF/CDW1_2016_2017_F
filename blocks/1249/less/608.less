@@ -1,0 +1,292 @@
+.type-608{
+    .title-dress{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .row{
+        img{
+            width: 100%;
+            max-width: 100%;
+        }		
+    }
+    .dress-images{
+        margin-top: 60px;
+    }
+    /*--------------------hinh anh san pham----------------------*/
+    .direction_bar{
+        text-align: center;
+        border-top: #ccc solid 1px;
+        border-bottom: #ccc solid 1px;
+        margin-top: 20px;
+        ul {
+            display: inline-block;
+            padding: 15px 0;
+            margin: 0;
+            li{
+                cursor: pointer;
+                list-style: none;
+                margin-right: 20px;
+                float: left;
+                font-weight: bold;
+                a{
+                    color: #000;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+                a:hover{
+                    color: #ff8dba;
+
+                }
+            }
+            li:last-child {
+                margin-right: 0 !important;
+                a:hover{
+                    color:  #000 !important;
+                }
+            }
+        }	
+    }
+    .dress-small{
+        padding: 0 15px;
+        text-align: center;
+        img{
+            border: #ccc solid 1px;
+            padding: 3px;
+            cursor: pointer;
+            max-width: 70px;
+        }
+        img:hover{
+            border: #ccc solid 3px;
+        }
+    }
+    .swiper-container{
+        height: 280px;
+        display: inline-block;
+    }
+    .dress-box-slide{
+        position: relative;
+        top: 0;
+        transition: 0.5s all ease;
+    }
+    .slide-down, .slide-up{
+        cursor: pointer;
+        color: #dedede;
+        margin: 15px 0;
+        display: block;
+    }   
+    .dress-large-image{
+        border: #ccc solid 1px;
+        cursor: crosshair;
+        .fa-search-plus{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 30px;
+            z-index: 1;
+            color: #ff788b;
+            cursor: pointer;
+        }
+    }
+    /*----------zoom hinh------------*/
+    .zoom {
+        display:inline-block;
+        position: relative;
+    }
+    .zoom img {
+        display: block;
+    }	
+    .zoom:after {
+        content:'';
+        display:block; 
+        width:50px; 
+        height:50px; 
+        position:absolute; 
+        top:0;
+        right:0;
+    }  
+    /*---------------------chi tiet san pham ----------------*/
+    .dress-detail{
+        padding-left: 100px;
+        h2{
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        p{
+            color: #898989;
+            line-height: 20px;
+            margin-top: 10px;
+            margin-bottom: 0;
+            a{
+                color: #ff788b;
+                cursor: pointer;
+            }
+            a:hover{
+                color: #ffc841;
+                text-decoration: none;
+            }
+        }
+        .describe{
+            line-height: 26px;
+            padding-left: 0px;
+            margin-top: 10px;
+            li{
+                list-style: none;
+                color: #898989;
+            }
+
+            li:before {
+                list-style: none;
+                content: "•";// 
+                padding-right: 8px;
+                color: #ff788b;
+                margin-right: 5px;
+            }
+
+
+        }
+        .input-text{
+            padding: 10px;
+            width: 100px;
+            outline: none;
+            text-align: center;
+            border-radius: 20px;
+            border: #898989 solid 1px;
+        }
+        .count-product{
+            position: relative;
+            margin-top: 10px;
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: #ff788b;
+                cursor: pointer;
+
+            }
+            #down-click{
+                position: absolute;
+                left: 15px;
+                top: 13px;
+            }
+            #up-click{
+                position: relative;
+                right: 25px;
+            }
+        }
+        .btn-add-to-cart{
+            color: white;
+            font-size: 20px;
+            background: #ff788b;
+            outline: none;
+            line-height: 20px;
+            letter-spacing: 0;
+            font-weight: none;
+            display: inline-block;
+            padding: 13px 24px;
+            margin-top: 10px;
+            border-radius: 48px;
+            border-width: 0;
+            border-style: solid;
+            box-shadow: none;
+            text-align: center;
+        }
+        .btn-add-to-cart:hover{
+            background: linear-gradient(to right,#fe80aa 30%,#ff788b 100%);
+            color: black;
+        }
+        .reweet_compare{
+            margin-top: 10px;
+        }
+        .compare{
+            font-weight: bold;			
+            color: #000;
+        }
+        .compare:hover{
+            text-decoration: none;
+            color: #ff788b;
+        }
+        .fa-retweet{
+            font-family: 'FontAwesome';
+            cursor: pointer;
+            font-size: 22.6px;
+            font-size: 1.4125rem;
+            margin-right: 10px;
+            margin-left: 20px;
+            border: none;
+            color: #dedede;
+        }
+        .icon-share{
+            margin-top: 40px;
+            .fa{
+                margin: 0 7px;
+                color: #dedede;
+            }
+            .fa:hover{
+                color: #ff788b;
+            }
+        }		
+    }
+    /*--------------bar option view----------------*/
+    .bar-option-bottom{
+        display: inline-block;
+        margin: 60px 0;
+        padding-left: 13px;
+        li{
+            cursor: pointer;
+            list-style: none;
+            float: left;
+            margin-right: 30px;
+            font-weight: 700;
+            letter-spacing: 0.56px;
+            line-height: 1.2857;
+        }
+        .description{
+            color: #dedede;
+        }
+        .additional-if, .reviews{
+            color: #414546;
+        }
+        .additional-if:hover, .reviews:hover{
+            color: #ff788b;
+        }
+
+    }
+    /*-----------------di dong---------------------*/
+    @media (max-width: 1200px){
+        .swiper-container{
+            height: 250px;
+        }
+        .dress-detail{
+            padding-left: 15px;
+        }
+    }
+    @media (max-width: 992px){
+        .swiper-container{
+        }
+        .title-dress{
+            font-size: 30px;
+        }
+        .swiper-container{
+            height: 180px;
+        }
+    }
+    @media (max-width: 768px){
+        .swiper-container{
+            height: 300px;
+        }
+    }
+    @media (max-width: 450px){
+        .swiper-container{
+            height: 150px;
+        }
+        .dress-small{
+            padding-right: 0;
+        }
+    }
+    @media (min-width: 1200px){
+        .container{
+            width: 1180px;
+        }
+    }	
+}
